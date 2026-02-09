@@ -2,7 +2,7 @@
 
 Detects bad chaos magic.
 
-__description__ = 'Detects obfuscated and malicious code via entropy analysis and language detection. Attack code and phishing payloads often use heavy obfuscation that no human would write. This library measures the Shannon entropy of a file, identifies its language or script, and flags files whose entropy exceeds a per-language threshold. Known binary formats, certificates, and emails are automatically skipped.'    
+__description__ = 'Detects obfuscated and malicious code via entropy analysis and language detection. Attack code and phishing payloads often use heavy obfuscation that no human would write. This library measures the Shannon entropy of a file, identifies its language or script, and flags files whose entropy exceeds a per-language threshold. Known binary formats, certificates, and emails are automatically skipped. If run from CLI, reporting is on stdout and logging is on stderr.'    
 __author__ = 'Ryan C. Moon'    
 __version__ = '0.3.0'    
 __date__ = '2026-02-09'  
