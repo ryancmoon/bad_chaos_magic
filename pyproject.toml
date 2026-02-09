@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bad-chaos-magic"
+version = "0.1.0"
+description = "Detects obfuscated and malicious code via entropy analysis and language detection"
+authors = [{ name = "Ryan C. Moon" }]
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+bad-chaos-magic = "bad_chaos_magic:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

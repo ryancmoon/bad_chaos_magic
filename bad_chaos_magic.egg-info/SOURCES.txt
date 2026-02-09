@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+bad_chaos_magic/__init__.py
+bad_chaos_magic/__main__.py
+bad_chaos_magic.egg-info/PKG-INFO
+bad_chaos_magic.egg-info/SOURCES.txt
+bad_chaos_magic.egg-info/dependency_links.txt
+bad_chaos_magic.egg-info/entry_points.txt
+bad_chaos_magic.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+bad-chaos-magic = bad_chaos_magic:main
