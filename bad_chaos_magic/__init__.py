@@ -46,7 +46,8 @@ LANGUAGE_WORDS = {
 PROGRAMMING_KEYWORDS = {
     "JavaScript": {"function", "const", "let", "var", "return", "typeof", "undefined",
                    "console", "document", "require", "export", "async", "await",
-                   "=>", "null", "===", "!==", "window", "prototype", "new"},
+                   "=>", "null", "===", "!==", "window", "prototype", "new", "this", 
+                   "true", "false"},
     "PowerShell": {"param", "function", "foreach", "write-host", "get-childitem",
                    "set-item", "get-content", "set-content", "$_", "cmdletbinding",
                    "-eq", "-ne", "-gt", "-lt", "try", "catch", "invoke-expression",
